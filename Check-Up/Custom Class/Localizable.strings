@@ -1,0 +1,142 @@
+/* 
+  Localizable.strings
+  Event Project
+
+  Created by Amisha on 20/07/17.
+  Copyright © 2017 Amisha. All rights reserved.
+*/
+
+////Mark: - Default strings
+
+"camera_not_available" = "Damn, the camera feature is not available on this device.";
+
+"flash_not_available" = "Damn, the flash feature is not available on this device.";
+
+"gallery_not_available" = "Oh, the photo library does not exist on this device.";
+
+"connection_fail" = "Damn! Unable to connect, please try again";
+
+"server_error" = "We were unable to reach to the server, please try again after few minutes.";
+
+"request_time_out" = "The request timed out, please verify your internet connection is okay and try again.";
+
+"can_not_find_host" = "Wah? The host name for a URL cannot be resolved, please try again later.";
+
+"can_not_connect_to_host" = "The host is down, we'll have to try again later";
+
+"data_length_exceeds_maximum" = "The length of resource data exceeds the maximum allowed.";
+
+"network_lost" = "It seems that you are not connected to the Internet. Please check your network settings.";
+
+"resource_not_found" = "Oh...a requested resource cannot be retrieved.";
+
+"internet_appears_offline" = "Oh...you're not connected to the internet. Let's check our network settings shall we.";
+
+"server_exception_error" = "Oh no theres a minor problem with our server, please try again in a few minutes";
+
+"wrong_request" = "Oh this is embarrassing. Wrong request, please try again.";
+
+"server_json_error" = "JSON text did not start with array or object and option to allow fragments not set.";
+
+"location_service_enabling_alert" = "Your Location Services is disabled. Please enable Location services to ensure a smooth experience with Cargo+.";
+
+"location_access_not_available" = "Oh no! Your Location Access is disabled. Please enable Location Access to ensure a smooth experience with Cargo+.";
+
+"oops_something_goes_wrong_alert" = "Oops! Something went wrong, let's try again in a few minutes.";
+
+
+"unable_to_get_product_info" = "Hmm, we were unable to get product info from the iTunes Store.";
+
+"not_allowed_in_app_purchase" = "Oh no! This device is not able or allowed to make payments.";
+
+"transactionFailed" = "Oh! The transaction failed, please try again.";
+
+"error" = "Error";
+
+"no_internet_connection" = "No Internet Connection";
+
+"no_gps_connection" = "Location Service";
+
+
+
+
+
+"done" = "Done";
+
+"yes" = "Yes";
+
+"no" = "No";
+
+"send" = "Send";
+
+"app_name" = "Cargo+";
+
+"Setting" = "Settings";
+
+"reset_filter_title" = "Reset Filter";
+"reset_filter_msg" = "Are you sure want to Reset Filter?";
+
+"reset" = "Reset";
+
+"okey" = "Ok";
+
+"search_btn" = "Search";
+
+"alert_title" = "CheckUp";
+
+////Mark: - Common button title
+"next_button" = "Next";
+"save_button" = "Save";
+"done_button" = "Done";
+"update_button" = "Update";
+"ok_button" = "OK";
+"cancel_button" = "Cancel";
+"save_continue_button" = "Save & Continue";
+"confirm_button" = "Confirm";
+"edit_button" = "Edit";
+"create_button" = "Create";
+"clear_button" = "Clear";
+"apply_button" = "Apply";
+
+////Mark: - Image Popup View
+"select_image" = "Select Photo";
+"capture_camera" = "CAPTURE WITH\nCAMERA";
+"select_from_gallery" = "SELECT FROM\nGALLERY";
+"remove_image" = "REMOVE CURRENT PICTURE";
+"replace_capture_camera" = "REPLACE WITH CAMERA";
+"replace_select_from_gallery" = "REPLACE FROM GALLERY";
+
+"device_no_camera" = "Your device has no camera";
+
+"verification_email_expire" = "Your link has expired.";
+
+"successfully_email_verified" = "Your email has been verified!";
+
+"today" = "Today";
+"yesterday" = "Yesterday";
+
+"no_result_found" = "No results found.";
+
+"select_date_title" = "Select Date";
+"select_time_title" = "Select Time";
+"select_date_time_title" = "Select Date and Time";
+
+
+////Mark: - Login - Signup Screen
+"enter_user_name" = "Please enter user name or email address";
+"enter_password" = "Please enter password";
+
+"enter_first_name" = "Please enter first name";
+"enter_last_name" = "Please enter last name";
+"enter_email_address" = "Please enter email address";
+"invalid_email" = "Invalid email address";
+
+
+"verify_email_address" = "Please verify your email address - %@";
+
+////Mark: - Create Game Event Training Screen
+"enter_title" = "Please enter title.";
+"enter_location" = "Please select location";
+"enter_time" = "Please select time.";
+"add_member" = "Please add member.";
+"enter_description" = "Please enter description.";

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oNX-Dn-5bE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkup_logo_bg" translatesAutoresizingMaskIntoConstraints="NO" id="qM5-cl-A0h">
+                                <rect key="frame" x="10" y="241" width="300" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="gy8-Ey-cgH"/>
+                                    <constraint firstAttribute="height" constant="85" id="wA4-0S-tbJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oNX-Dn-5bE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4xa-W6-fik"/>
+                            <constraint firstAttribute="trailing" secondItem="oNX-Dn-5bE" secondAttribute="trailing" id="8FR-g3-H2H"/>
+                            <constraint firstItem="oNX-Dn-5bE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="CIG-nc-nId"/>
+                            <constraint firstItem="qM5-cl-A0h" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PjN-tl-etk"/>
+                            <constraint firstItem="qM5-cl-A0h" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="R7K-DE-ZUW"/>
+                            <constraint firstAttribute="bottom" secondItem="oNX-Dn-5bE" secondAttribute="bottom" id="Slh-w1-Hq3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkup_logo_bg" width="696" height="198"/>
+    </resources>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CustomPinView" id="iN0-l3-epB" customClass="CustomPinView" customModule="Check_Up" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVC-1D-jtT">
+                    <rect key="frame" x="2" y="6" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="moL-3T-aeG"/>
+                        <constraint firstAttribute="width" constant="50" id="uNZ-nN-ghg"/>
+                    </constraints>
+                    <state key="normal" image="ic_basketball_gray"/>
+                    <state key="selected" image="ic_basketball"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdQ-vB-1Ez">
+                    <rect key="frame" x="35" y="0.0" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="vei-AX-RXe"/>
+                        <constraint firstAttribute="width" constant="25" id="xdn-pR-eQM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="2"/>
+                    <state key="normal" title="0" backgroundImage="redoval"/>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6Sf-E4-Phu">
+                    <rect key="frame" x="1" y="57" width="58" height="0.0"/>
+                    <color key="backgroundColor" red="0.95294117649999999" green="0.53725490200000003" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QdQ-vB-1Ez" secondAttribute="trailing" id="AxK-FA-7Gx"/>
+                <constraint firstItem="6Sf-E4-Phu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="1" id="Br0-34-NYv"/>
+                <constraint firstAttribute="trailing" secondItem="6Sf-E4-Phu" secondAttribute="trailing" constant="1" id="MWW-kF-h8U"/>
+                <constraint firstAttribute="bottom" secondItem="6Sf-E4-Phu" secondAttribute="bottom" constant="3" id="SSb-MG-6a6"/>
+                <constraint firstItem="UVC-1D-jtT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="Uqe-Qn-YJp"/>
+                <constraint firstItem="6Sf-E4-Phu" firstAttribute="top" secondItem="UVC-1D-jtT" secondAttribute="bottom" constant="1" id="aU5-3s-UiN"/>
+                <constraint firstItem="QdQ-vB-1Ez" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cgm-BT-1F0"/>
+                <constraint firstAttribute="trailing" secondItem="UVC-1D-jtT" secondAttribute="trailing" constant="8" id="ehk-2N-MrY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="distanceLbl" destination="6Sf-E4-Phu" id="dGb-DF-T0t"/>
+                <outlet property="pinImg" destination="UVC-1D-jtT" id="NcK-lH-cFg"/>
+                <outlet property="totalCountBtn" destination="QdQ-vB-1Ez" id="IhV-wJ-Zuo"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_basketball" width="107" height="107"/>
+        <image name="ic_basketball_gray" width="107" height="107"/>
+        <image name="redoval" width="44" height="44"/>
+    </resources>
+</document>

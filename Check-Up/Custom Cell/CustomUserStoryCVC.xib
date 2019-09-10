@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomUserStoryCVC" id="mOn-W1-Th0" customClass="CustomUserStoryCVC" customModule="Check_Up" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkb-8M-Ol7">
+                        <rect key="frame" x="16" y="7" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="Bsd-rj-OeT"/>
+                            <constraint firstAttribute="height" constant="48" id="ukr-Ln-8fC"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="user_placeholder"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="outerorangering" translatesAutoresizingMaskIntoConstraints="NO" id="dmV-Ce-rxr">
+                        <rect key="frame" x="12" y="3.5" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="TMH-pF-aeA"/>
+                            <constraint firstAttribute="height" constant="55" id="X4i-xw-UM9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3L-Em-wHa">
+                        <rect key="frame" x="3" y="59" width="74" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="KAC-KL-t0i"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.20397777289999999" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zin-NL-HfR">
+                        <rect key="frame" x="3" y="59" width="74" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="rkR-sQ-met"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="d3L-Em-wHa" secondAttribute="bottom" id="4Eb-C3-QCh"/>
+                <constraint firstAttribute="trailing" secondItem="d3L-Em-wHa" secondAttribute="trailing" constant="3" id="6nI-DO-VSH"/>
+                <constraint firstItem="zin-NL-HfR" firstAttribute="top" secondItem="dmV-Ce-rxr" secondAttribute="bottom" constant="0.5" id="QaI-hB-puM"/>
+                <constraint firstItem="Qkb-8M-Ol7" firstAttribute="centerX" secondItem="mOn-W1-Th0" secondAttribute="centerX" id="T3d-cW-vGL"/>
+                <constraint firstItem="zin-NL-HfR" firstAttribute="leading" secondItem="mOn-W1-Th0" secondAttribute="leading" constant="3" id="Tk4-h2-9lM"/>
+                <constraint firstAttribute="trailing" secondItem="zin-NL-HfR" secondAttribute="trailing" constant="3" id="VhG-Ea-3oY"/>
+                <constraint firstAttribute="bottom" secondItem="zin-NL-HfR" secondAttribute="bottom" id="aC9-zS-TfX"/>
+                <constraint firstItem="d3L-Em-wHa" firstAttribute="leading" secondItem="mOn-W1-Th0" secondAttribute="leading" constant="3" id="nVZ-wl-qBJ"/>
+                <constraint firstItem="Qkb-8M-Ol7" firstAttribute="centerY" secondItem="dmV-Ce-rxr" secondAttribute="centerY" id="nxX-6x-Nc7"/>
+                <constraint firstItem="Qkb-8M-Ol7" firstAttribute="centerX" secondItem="dmV-Ce-rxr" secondAttribute="centerX" id="sP7-5f-Qm3"/>
+                <constraint firstItem="d3L-Em-wHa" firstAttribute="top" secondItem="Qkb-8M-Ol7" secondAttribute="bottom" constant="4" id="tap-du-KMS"/>
+            </constraints>
+            <connections>
+                <outlet property="profilePicBtn" destination="Qkb-8M-Ol7" id="a1O-5b-g0a"/>
+                <outlet property="userNameDarkLbl" destination="zin-NL-HfR" id="DJq-oT-dcq"/>
+                <outlet property="userNameLbl" destination="d3L-Em-wHa" id="46L-oC-7bf"/>
+            </connections>
+            <point key="canvasLocation" x="-69" y="80"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="outerorangering" width="128" height="128"/>
+        <image name="user_placeholder" width="100" height="100"/>
+    </resources>
+</document>
